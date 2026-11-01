@@ -58,5 +58,25 @@
       "device MAC address",
       "serial port name"
     ]
+  },
+  {
+    "file": "build-clean-publication.log",
+    "source_sha256": "9b52ce6bf5e1244e50424b03024b20d9fc6cdc5a86f4b25496975ab254ad66f3",
+    "public_sha256": "9fa4db531308d4c661848730f02a9ab3c114452bc2a334f00868a1484358e206",
+    "normalization": [
+      "absolute project path",
+      "device MAC address",
+      "serial port name"
+    ]
+  },
+  {
+    "file": "package-publication-check.log",
+    "source_sha256": "3e450cd3309d75382a650b4e8a4e5f8c33250656c7df4da2fb5cfb5d5ab9e3e2",
+    "public_sha256": "eb36c7a261d403e5c417d246efcd1566138ce6362d69dee1589e1ce4df2fab71",
+    "normalization": [
+      "absolute project path",
+      "device MAC address",
+      "serial port name"
+    ]
   }
 ]
