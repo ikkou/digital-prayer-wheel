@@ -1,0 +1,17 @@
+* text=auto
+*.cpp text eol=lf
+*.h text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.ini text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.blend binary
+*.dpw binary
+*.ttf binary
+*.png binary
+*.gif binary
+
+# Preserve upstream license text and the normalized evidence byte for byte.
+assets/lettering/fonts/OFL.txt -whitespace
+docs/evidence/*.log -whitespace

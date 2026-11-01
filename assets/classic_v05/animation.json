@@ -1,0 +1,13 @@
+{
+  "format": "DPW1/RGB565",
+  "version": 1,
+  "width": 240,
+  "height": 240,
+  "frame_count": 32,
+  "degrees_per_frame": 11.25,
+  "total_package_bytes": 3686674,
+  "largest_frame_bytes": 115200,
+  "raw_rgb565_bytes": 3686400,
+  "final_artwork": true,
+  "loop": "frame_031 -> frame_000 is the same one-frame rotation step as all other intervals"
+}

@@ -1,0 +1,115 @@
+{
+  "text": "ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ།",
+  "source": "https://www.lotsawahouse.org/tibetan-masters/nyoshul-lungtok/prayer-to-avalokiteshvara",
+  "font_sha256": "106f99b032ede3c7e2e1d1bd9f4e0b4e993645c4fe30f04fa2b5848d70c5ea7a",
+  "radius": 0.943,
+  "uniform_scale": 0.0005707762557077625,
+  "tracking_after_tsheg": 0.5922826256653045,
+  "objects": [
+    {
+      "object": "MANTRA 00 | uni0F68.2",
+      "glyph": "uni0F68.2",
+      "cluster": 0,
+      "extra_tracking": -0.26912100456621,
+      "vertices": 3270
+    },
+    {
+      "object": "MANTRA 01 | uni0F7C0F7E",
+      "glyph": "uni0F7C0F7E",
+      "cluster": 0,
+      "extra_tracking": -0.26912100456621,
+      "vertices": 4710
+    },
+    {
+      "object": "MANTRA 02 | uni0F0B",
+      "glyph": "uni0F0B",
+      "cluster": 3,
+      "extra_tracking": -0.26912100456621,
+      "vertices": 40
+    },
+    {
+      "object": "MANTRA 03 | uni0F58",
+      "glyph": "uni0F58",
+      "cluster": 4,
+      "extra_tracking": 0.3231616210990945,
+      "vertices": 2990
+    },
+    {
+      "object": "MANTRA 04 | uni0F0B",
+      "glyph": "uni0F0B",
+      "cluster": 5,
+      "extra_tracking": 0.3231616210990945,
+      "vertices": 40
+    },
+    {
+      "object": "MANTRA 05 | uni0F4E",
+      "glyph": "uni0F4E",
+      "cluster": 6,
+      "extra_tracking": 0.9154442467643991,
+      "vertices": 3060
+    },
+    {
+      "object": "MANTRA 06 | uni0F72",
+      "glyph": "uni0F72",
+      "cluster": 6,
+      "extra_tracking": 0.9154442467643991,
+      "vertices": 2420
+    },
+    {
+      "object": "MANTRA 07 | uni0F0B",
+      "glyph": "uni0F0B",
+      "cluster": 8,
+      "extra_tracking": 0.9154442467643991,
+      "vertices": 40
+    },
+    {
+      "object": "MANTRA 08 | uni0F54",
+      "glyph": "uni0F54",
+      "cluster": 9,
+      "extra_tracking": 1.5077268724297037,
+      "vertices": 1920
+    },
+    {
+      "object": "MANTRA 09 | uni0F510FA8",
+      "glyph": "uni0F510FA8",
+      "cluster": 10,
+      "extra_tracking": 1.5077268724297037,
+      "vertices": 4500
+    },
+    {
+      "object": "MANTRA 10 | uni0F7A",
+      "glyph": "uni0F7A",
+      "cluster": 10,
+      "extra_tracking": 1.5077268724297037,
+      "vertices": 1460
+    },
+    {
+      "object": "MANTRA 11 | uni0F0B",
+      "glyph": "uni0F0B",
+      "cluster": 13,
+      "extra_tracking": 1.5077268724297037,
+      "vertices": 40
+    },
+    {
+      "object": "MANTRA 12 | uni0F670F710F74",
+      "glyph": "uni0F670F710F74",
+      "cluster": 14,
+      "extra_tracking": 2.100009498095008,
+      "vertices": 7110
+    },
+    {
+      "object": "MANTRA 13 | uni0F83",
+      "glyph": "uni0F83",
+      "cluster": 14,
+      "extra_tracking": 2.100009498095008,
+      "vertices": 2660
+    },
+    {
+      "object": "MANTRA 14 | uni0F0D",
+      "glyph": "uni0F0D",
+      "cluster": 18,
+      "extra_tracking": 2.100009498095008,
+      "vertices": 530
+    }
+  ]
+}

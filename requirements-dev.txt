@@ -1,0 +1,3 @@
+platformio==6.1.19
+-r requirements-assets.txt
+-r tools/requirements-lettering.txt

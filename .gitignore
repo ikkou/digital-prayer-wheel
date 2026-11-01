@@ -1,0 +1,25 @@
+.pio/
+.pio-core/
+.tools/
+.tmp/
+.venv/
+.idea/
+.vscode/
+.DS_Store
+__pycache__/
+*.pyc
+*.blend[0-9]
+.env
+.env.*
+!.env.example
+
+# Retain local development history without duplicating it in the public tree.
+logs/
+data/
+assets/classic/
+assets/incoming/
+assets/built/
+assets/classic_v05/*_png_frames.zip
+assets/diagnostics/*
+!assets/diagnostics/fever/
+assets/diagnostics/fever/case_*.png

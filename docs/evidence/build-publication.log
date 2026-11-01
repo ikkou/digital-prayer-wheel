@@ -1,0 +1,151 @@
+<project>/.tools/platformio/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Processing m5dial_v11 (platform: espressif32@6.12.0; board: m5stack-stamps3; framework: arduino)
+--------------------------------------------------------------------------------
+Library Manager: Installing m5stack/M5Dial @ 1.0.3
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: M5Dial@1.0.3 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing M5Unified @ *
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: M5Unified@0.2.29 has been installed!
+Library Manager: Resolving dependencies...
+Library Manager: Installing M5GFX @ >=0.2.35
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: M5GFX@0.2.36 has been installed!
+<project>/.tools/platformio/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Verbose mode can be enabled via `-v, --verbose` option
+M5Dial v1.1 GC9A01 ID compatibility: patched M5GFX autodetection
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/m5stack-stamps3.html
+PLATFORM: Espressif 32 (6.12.0) > M5Stack StampS3
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 8MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 2.40900.250804 (4.9.0) 
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5 
+ - toolchain-xtensa-esp32s3 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 36 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- M5Dial @ 1.0.3
+|-- M5Unified @ 0.2.29
+|-- M5GFX @ 0.2.36
+|-- Preferences @ 2.0.0
+Building in release mode
+Compiling .pio/build/m5dial_v11/src/App.cpp.o
+Compiling .pio/build/m5dial_v11/src/Audio.cpp.o
+Compiling .pio/build/m5dial_v11/src/Effects.cpp.o
+Compiling .pio/build/m5dial_v11/src/FrameAssetSource.cpp.o
+Compiling .pio/build/m5dial_v11/src/Hardware.cpp.o
+Compiling .pio/build/m5dial_v11/src/Input.cpp.o
+Compiling .pio/build/m5dial_v11/src/Renderer.cpp.o
+Compiling .pio/build/m5dial_v11/src/RotationModel.cpp.o
+Compiling .pio/build/m5dial_v11/src/Settings.cpp.o
+Compiling .pio/build/m5dial_v11/src/main.cpp.o
+Building .pio/build/m5dial_v11/bootloader.bin
+esptool.py v4.9.0
+Creating esp32s3 image...
+Merged 1 ELF section
+Successfully created esp32s3 image.
+Generating partitions .pio/build/m5dial_v11/partitions.bin
+Compiling .pio/build/m5dial_v11/libbc6/SPI/SPI.cpp.o
+Compiling .pio/build/m5dial_v11/libe6f/Wire/Wire.cpp.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/M5GFX.cpp.o
+Archiving .pio/build/m5dial_v11/libe6f/libWire.a
+Archiving .pio/build/m5dial_v11/libbc6/libSPI.a
+Indexing .pio/build/m5dial_v11/libbc6/libSPI.a
+Indexing .pio/build/m5dial_v11/libe6f/libWire.a
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/Fonts/IPA/lgfx_font_japan.c.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/Fonts/efont/lgfx_efont_cn.c.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/Fonts/efont/lgfx_efont_ja.c.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/Fonts/efont/lgfx_efont_kr.c.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/Fonts/efont/lgfx_efont_tw.c.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/utility/lgfx_miniz.c.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/utility/lgfx_pngle.c.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/utility/lgfx_qoi.c.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/utility/lgfx_qrcode.c.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/utility/lgfx_tjpgd.c.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/v1/LGFXBase.cpp.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/v1/lgfx_fonts.cpp.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/v1/lgfx_v1.cpp.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/v1/lgfx_v1_panel.cpp.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/v1/lgfx_v1_platforms.cpp.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/v1/lgfx_v1_touch.cpp.o
+Compiling .pio/build/m5dial_v11/lib69f/M5GFX/lgfx/v1/panel/Panel_M5HDMI.cpp.o
+Compiling .pio/build/m5dial_v11/lib7d4/M5Unified/M5Unified.cpp.o
+Compiling .pio/build/m5dial_v11/libb28/M5Dial/M5Dial.cpp.o
+Compiling .pio/build/m5dial_v11/libb28/M5Dial/utility/Encoder.cpp.o
+Compiling .pio/build/m5dial_v11/libb28/M5Dial/utility/MFRC522.cpp.o
+Compiling .pio/build/m5dial_v11/libb67/Preferences/Preferences.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/Esp.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/FirmwareMSC.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/FunctionalInterrupt.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/HWCDC.cpp.o
+Archiving .pio/build/m5dial_v11/libb28/libM5Dial.a
+Indexing .pio/build/m5dial_v11/libb28/libM5Dial.a
+Compiling .pio/build/m5dial_v11/FrameworkArduino/HardwareSerial.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/IPAddress.cpp.o
+Archiving .pio/build/m5dial_v11/libb67/libPreferences.a
+Indexing .pio/build/m5dial_v11/libb67/libPreferences.a
+Compiling .pio/build/m5dial_v11/FrameworkArduino/IPv6Address.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/MD5Builder.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/Print.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/Stream.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/StreamString.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/Tone.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/USB.cpp.o
+Archiving .pio/build/m5dial_v11/lib69f/libM5GFX.a
+Compiling .pio/build/m5dial_v11/FrameworkArduino/USBCDC.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/USBMSC.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/WMath.cpp.o
+Indexing .pio/build/m5dial_v11/lib69f/libM5GFX.a
+Compiling .pio/build/m5dial_v11/FrameworkArduino/WString.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/base64.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/cbuf.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-adc.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-bt.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-cpu.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-dac.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-gpio.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-i2c-slave.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-i2c.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-ledc.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-matrix.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-misc.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-psram.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-rgb-led.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-rmt.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-sigmadelta.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-spi.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-time.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-timer.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-tinyusb.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-touch.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/esp32-hal-uart.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/firmware_msc_fat.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/libb64/cdecode.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/libb64/cencode.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/main.cpp.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/stdlib_noniso.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/wiring_pulse.c.o
+Compiling .pio/build/m5dial_v11/FrameworkArduino/wiring_shift.c.o
+Archiving .pio/build/m5dial_v11/libFrameworkArduino.a
+Indexing .pio/build/m5dial_v11/libFrameworkArduino.a
+Archiving .pio/build/m5dial_v11/lib7d4/libM5Unified.a
+Indexing .pio/build/m5dial_v11/lib7d4/libM5Unified.a
+Linking .pio/build/m5dial_v11/firmware.elf
+Retrieving maximum program size .pio/build/m5dial_v11/firmware.elf
+Checking size .pio/build/m5dial_v11/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   7.9% (used 25772 bytes from 327680 bytes)
+Flash: [=         ]  12.5% (used 522337 bytes from 4194304 bytes)
+Building .pio/build/m5dial_v11/firmware.bin
+esptool.py v4.9.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+========================= [SUCCESS] Took 16.69 seconds =========================

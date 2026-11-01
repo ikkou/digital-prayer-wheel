@@ -1,0 +1,35 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x9 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4204c122
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3808,len:0x4bc
+load:0x403c9700,len:0xbd8
+load:0x403cc700,len:0x2a0c
+entry 0x403c98d0
+E (123) esp_core_dump_flash: No core dump partition found!
+E (123) esp_core_dump_flash: No core dump partition found!
+DPW_POWER_HOLD;gpio=46;state=1
+DPW_M5GFX_CACHE;previous=0;cleared=1
+DPW_HARDWARE;board=12;display_board=12;displays=1;width=240;height=240
+DPW_ASSET_SOURCE=FLASH_MMAP
+DPW_ROTATION_SCALE;counts_per_wheel_turn=64;encoder_count=0
+DPW_CUE_MODE=12_OCLOCK_NET_TURN
+DPW_AUDIO;bgm=removed;muted=0
+DPW_PRESENTATION=FEVER;fever_thresholds=1,3,6,10,20;counter=session
+DPW_READY; board=M5Dial-v1.1-candidate; flash=8388608; psram=0; display=240x240; encoder_gpio=A41/B40; touch=FT3267; buzzer=Speaker.tone
+INPUT: rotate ring; short touch=CLASSIC presentation; long touch=settings
+DPW_ASSET;frames=32;encoding=0;storage=1;bytes=3686674;max_frame=115200;final=1
+DPW_INDICATOR;version=2;draw_us=1810;persistent=1
+DPW_BOOT_FRAME;draw_us=12061;encoding=0;bytes=3686674
+DPW_METRICS;fps_x10=2;draw_avg_us=15734;draw_max_us=15734;poll_to_draw_max_ms=15;frames=32;encoding=0;storage=1;asset_bytes=3686674;max_frame=115200;display=240x240;flash=8388608;psram=0;heap=343376;counts_per_wheel_turn=64
+DPW_METRICS;fps_x10=0;draw_avg_us=0;draw_max_us=0;poll_to_draw_max_ms=1;frames=32;encoding=0;storage=1;asset_bytes=3686674;max_frame=115200;display=240x240;flash=8388608;psram=0;heap=343376;counts_per_wheel_turn=64
+DPW_METRICS;fps_x10=0;draw_avg_us=0;draw_max_us=0;poll_to_draw_max_ms=1;frames=32;encoding=0;storage=1;asset_bytes=3686674;max_frame=115200;display=240x240;flash=8388608;psram=0;heap=343376;counts_per_wheel_turn=64
+DPW_METRICS;fps_x10=0;draw_avg_us=0;draw_max_us=0;poll_to_draw_max_ms=1;frames=32;encoding=0;storage=1;asset_bytes=3686674;max_frame=115200;display=240x240;flash=8388608;psram=0;heap=343376;counts_per_wheel_turn=64
+DPW_METRICS;fps_x10=0;draw_avg_us=0;draw_max_us=0;poll_to_draw_max_ms=1;frames=32;encoding=0;storage=1;asset_bytes=3686674;max_frame=115200;display=240x240;flash=8388608;psram=0;heap=343376;counts_per_wheel_turn=64
+DPW_METRICS;fps_x10=0;draw_avg_us=0;draw_max_us=0;poll_to_draw_max_ms=1;frames=32;encoding=0;storage=1;asset_bytes=3686674;max_frame=115200;display=240x240;flash=8388608;psram=0;heap=343376;counts_per_wheel_turn=64
+DPW_METRICS;fps_x10=0;draw_avg_us=0;draw_max_us=0;poll_to_draw_max_ms=1;frames=32;encoding=0;storage=1;asset_bytes=3686674;max_frame=115200;display=240x240;flash=8388608;psram=0;heap=343376;counts_per_wheel_turn=64
+DPW_METRICS;fps_x10=0;draw_avg_us=0;draw_max_us=0;poll_to_draw_max_ms=1;frames=32;encoding=0;storage=1;asset_bytes=3686674;max_frame=115200;display=240x240;flash=8388608;psram=0;heap=343376;counts_per_wheel_turn=64
+DPW_METRICS;fps_x10=0;draw_avg_us=0;draw_max_us=0;poll_to_draw_max_ms=1;frames=32;encoding=0;storage=1;asset_bytes=3686674;max_frame=115200;display=240x240;flash=8388608;psram=0;heap=343376;counts_per_wheel_turn=64
+DPW_METRICS;fps_x10=0;draw_avg_us=0;draw_max_us=0;poll_to_draw_max_ms=1;frames=32;encoding=0;storage=1;asset_bytes=3686674;max_frame=115200;display=240x240;flash=8388608;psram=0;heap=343376;counts_per_wheel_turn=64

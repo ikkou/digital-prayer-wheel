@@ -1,0 +1,62 @@
+[
+  {
+    "file": "host-fever.log",
+    "source_sha256": "d8b7b13a1789435c7b0a10e897c169378670d7984efb71a79043d2e13d790d6a",
+    "public_sha256": "d8b7b13a1789435c7b0a10e897c169378670d7984efb71a79043d2e13d790d6a",
+    "normalization": [
+      "absolute project path",
+      "device MAC address",
+      "serial port name"
+    ]
+  },
+  {
+    "file": "build-fever.log",
+    "source_sha256": "10143d3dc79b378e8f323c0c9ebb1eb6dd9af3a18e42e2f27342c7a1b5c1cd88",
+    "public_sha256": "a58d2bb4882cc639c8bc2b108a463f96088e257173feb66b1a7bbdf95308e320",
+    "normalization": [
+      "absolute project path",
+      "device MAC address",
+      "serial port name"
+    ]
+  },
+  {
+    "file": "flash-fever.log",
+    "source_sha256": "002a8b3a9cccfe35474ab11405276dab11b92e24c1121b23c2c6ca6544e5a5b1",
+    "public_sha256": "ddf65291f22ebb79dd81365188f90f3541e3d9adafce9add2b4ebc5cd35039e2",
+    "normalization": [
+      "absolute project path",
+      "device MAC address",
+      "serial port name"
+    ]
+  },
+  {
+    "file": "runtime-fever.log",
+    "source_sha256": "5d1bfc101a95fd4c1cbf21727e95daf10ccbd427593f5c08a69cffb1d8fe518d",
+    "public_sha256": "3e92a7a20fc1ab184ca997b48a1cd4df3f1ec8949f79cae1d9dbda0fa44a4afa",
+    "normalization": [
+      "absolute project path",
+      "device MAC address",
+      "serial port name"
+    ]
+  },
+  {
+    "file": "host-publication.log",
+    "source_sha256": "d8b7b13a1789435c7b0a10e897c169378670d7984efb71a79043d2e13d790d6a",
+    "public_sha256": "d8b7b13a1789435c7b0a10e897c169378670d7984efb71a79043d2e13d790d6a",
+    "normalization": [
+      "absolute project path",
+      "device MAC address",
+      "serial port name"
+    ]
+  },
+  {
+    "file": "build-publication.log",
+    "source_sha256": "2cd243131c7389deeca1d1e439feade0ebd6dcabf129a85de629f76a53fc1a22",
+    "public_sha256": "34b4b8dbc0d9393579d8e7c4e3c4cff31143aede902e6aa1fc2e9cca2e20ed41",
+    "normalization": [
+      "absolute project path",
+      "device MAC address",
+      "serial port name"
+    ]
+  }
+]
